@@ -211,15 +211,6 @@ with urllib.request.urlopen(request) as response:
 print(result["response"])
 ```
 
-## ✅ Kurulum kontrol listesi
-
-* [ ] Ollama kuruldu
-* [ ] `ollama --version` çalışıyor
-* [ ] Ollama servisi çalışıyor
-* [ ] En az bir model indirildi
-* [ ] Model çalışıyor
-* [ ] MATHİX Ollama API'sine bağlanabiliyor
-
 ## 💡 Başlangıç önerisi
 
 MATHİX için hafif başlangıç modeli:
