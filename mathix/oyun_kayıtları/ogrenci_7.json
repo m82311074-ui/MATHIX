@@ -1,0 +1,151 @@
+{
+  "ogrenci_id": "7",
+  "ogrenci_adi": "muhammed",
+  "oyunlar": [
+    {
+      "zaman": "2026-10-18T17:35:52+03:00",
+      "oyun": "Euler'ün Macerası",
+      "puan": 85,
+      "sonuc": "yarıda bırakıldı",
+      "ayrintilar": {
+        "seviye": 1,
+        "toplam_seviye": 10,
+        "dogru": 0,
+        "yanlis": 0
+      }
+    },
+    {
+      "zaman": "2026-10-18T17:45:13+03:00",
+      "oyun": "Newton'un İntikamı",
+      "puan": 1890,
+      "sonuc": "yarıda bırakıldı",
+      "ayrintilar": {
+        "dalga": 4,
+        "dogru": 0,
+        "yanlis": 1,
+        "toplam_soru": 1
+      }
+    },
+    {
+      "zaman": "2026-10-18T17:45:22+03:00",
+      "oyun": "Euler'ün Macerası",
+      "puan": 20,
+      "sonuc": "kaybetti",
+      "ayrintilar": {
+        "seviye": 1,
+        "toplam_seviye": 10,
+        "dogru": 0,
+        "yanlis": 1
+      }
+    },
+    {
+      "zaman": "2026-10-18T17:46:13+03:00",
+      "oyun": "Euler'ün Macerası",
+      "puan": 30,
+      "sonuc": "yarıda bırakıldı",
+      "ayrintilar": {
+        "seviye": 1,
+        "toplam_seviye": 10,
+        "dogru": 1,
+        "yanlis": 0
+      }
+    },
+    {
+      "zaman": "2026-10-18T17:46:25+03:00",
+      "oyun": "Fibonacci'nin Yılanı",
+      "puan": 0,
+      "sonuc": "yarıda bırakıldı",
+      "ayrintilar": {
+        "seviye": 1,
+        "yenen_yem": 0,
+        "dogru": 0,
+        "yanlis": 1,
+        "en_yuksek_puan": 0
+      }
+    },
+    {
+      "zaman": "2026-10-18T17:47:07+03:00",
+      "oyun": "Newton'un İntikamı",
+      "puan": 685,
+      "sonuc": "yarıda bırakıldı",
+      "ayrintilar": {
+        "dalga": 2,
+        "dogru": 1,
+        "yanlis": 1,
+        "toplam_soru": 2
+      }
+    },
+    {
+      "zaman": "2026-10-18T17:49:31+03:00",
+      "oyun": "Newton'un İntikamı",
+      "puan": 1210,
+      "sonuc": "kaybetti",
+      "ayrintilar": {
+        "dalga": 3,
+        "dogru": 1,
+        "yanlis": 3,
+        "toplam_soru": 4
+      }
+    },
+    {
+      "zaman": "2026-10-18T21:02:04+03:00",
+      "oyun": "Euler'ün Macerası",
+      "puan": 30,
+      "sonuc": "yarıda bırakıldı",
+      "ayrintilar": {
+        "seviye": 1,
+        "toplam_seviye": 10,
+        "dogru": 1,
+        "yanlis": 0
+      }
+    },
+    {
+      "zaman": "2026-10-31T15:14:41+03:00",
+      "oyun": "Euler'ün Macerası",
+      "puan": 135,
+      "sonuc": "yarıda bırakıldı",
+      "ayrintilar": {
+        "seviye": 2,
+        "toplam_seviye": 10,
+        "dogru": 0,
+        "yanlis": 0
+      }
+    },
+    {
+      "zaman": "2026-10-31T14:40:01+00:00",
+      "oyun": "Euler'ün Macerası",
+      "puan": 95,
+      "sonuc": "yarıda bırakıldı",
+      "ayrintilar": {
+        "seviye": 1,
+        "toplam_seviye": 10,
+        "dogru": 0,
+        "yanlis": 0
+      }
+    },
+    {
+      "zaman": "2026-11-01T13:55:16+03:00",
+      "oyun": "Euler'ün Macerası",
+      "puan": 180,
+      "sonuc": "yarıda bırakıldı",
+      "ayrintilar": {
+        "seviye": 2,
+        "toplam_seviye": 10,
+        "dogru": 0,
+        "yanlis": 0
+      }
+    },
+    {
+      "zaman": "2026-11-20T19:46:32+03:00",
+      "oyun": "Euler'ün Macerası",
+      "puan": 120,
+      "sonuc": "yarıda bırakıldı",
+      "ayrintilar": {
+        "seviye": 2,
+        "toplam_seviye": 10,
+        "dogru": 0,
+        "yanlis": 0
+      }
+    }
+  ]
+}

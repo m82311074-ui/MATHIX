@@ -1,0 +1,107 @@
+{
+  "ogrenci_id": "1",
+  "ogrenci_adi": "s",
+  "oyunlar": [
+    {
+      "zaman": "2026-11-20T20:42:22+03:00",
+      "oyun": "Euler'ün Macerası",
+      "puan": 20,
+      "sonuc": "yarıda bırakıldı",
+      "ayrintilar": {
+        "seviye": 1,
+        "toplam_seviye": 10,
+        "dogru": 0,
+        "yanlis": 0
+      }
+    },
+    {
+      "zaman": "2026-11-20T20:42:37+03:00",
+      "oyun": "Fibonacci'nin Yılanı",
+      "puan": 74,
+      "sonuc": "yarıda bırakıldı",
+      "ayrintilar": {
+        "seviye": 2,
+        "yenen_yem": 6,
+        "dogru": 0,
+        "yanlis": 0,
+        "en_yuksek_puan": 74
+      }
+    },
+    {
+      "zaman": "2026-11-20T20:43:05+03:00",
+      "oyun": "Ramanujan'ın Yarışı",
+      "puan": 0,
+      "sonuc": "yarıda bırakıldı",
+      "ayrintilar": {
+        "dogru": 0,
+        "yanlis": 26,
+        "isabet_yuzdesi": 0.0,
+        "cozulen_soru": 27,
+        "en_uzun_seri": 0,
+        "sure_saniye": 60
+      }
+    },
+    {
+      "zaman": "2026-11-20T20:43:19+03:00",
+      "oyun": "Newton'un İntikamı",
+      "puan": 395,
+      "sonuc": "yarıda bırakıldı",
+      "ayrintilar": {
+        "dalga": 1,
+        "dogru": 0,
+        "yanlis": 0,
+        "toplam_soru": 0
+      }
+    },
+    {
+      "zaman": "2026-11-20T20:48:03+03:00",
+      "oyun": "Euler'ün Macerası",
+      "puan": 155,
+      "sonuc": "yarıda bırakıldı",
+      "ayrintilar": {
+        "seviye": 2,
+        "toplam_seviye": 10,
+        "dogru": 0,
+        "yanlis": 0
+      }
+    },
+    {
+      "zaman": "2026-11-20T20:48:24+03:00",
+      "oyun": "Fibonacci'nin Yılanı",
+      "puan": 24,
+      "sonuc": "tamamlandı",
+      "ayrintilar": {
+        "seviye": 1,
+        "yenen_yem": 2,
+        "dogru": 0,
+        "yanlis": 3,
+        "en_yuksek_puan": 24
+      }
+    },
+    {
+      "zaman": "2026-11-20T20:48:43+03:00",
+      "oyun": "Newton'un İntikamı",
+      "puan": 110,
+      "sonuc": "kaybetti",
+      "ayrintilar": {
+        "dalga": 1,
+        "dogru": 0,
+        "yanlis": 3,
+        "toplam_soru": 3
+      }
+    },
+    {
+      "zaman": "2026-11-20T20:49:01+03:00",
+      "oyun": "Fibonacci'nin Yılanı",
+      "puan": 0,
+      "sonuc": "tamamlandı",
+      "ayrintilar": {
+        "seviye": 1,
+        "yenen_yem": 0,
+        "dogru": 0,
+        "yanlis": 3,
+        "en_yuksek_puan": 0
+      }
+    }
+  ]
+}

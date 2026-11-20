@@ -1,0 +1,76 @@
+# 🧮 MATHİX — AI Destekli Matematik Oyun Platformu
+
+1-12. sınıf öğrencileri için **oyunlaştırılmış matematik öğrenme platformu**.
+4 farklı oyun, AI öğretmen ve ölçülebilir başarı verisi bir arada.
+
+---
+
+## 🎯 Projenin Amacı
+
+Matematik pratiğini **sıkıcı alıştırmalardan** kurtarıp **oyunlaştırma** ve
+**yapay zekâ geri bildirimi** ile öğrencilerin:
+
+- İşlem hızını artırmak
+- Matematik kaygısını azaltmak
+- Kavramsal hatalarını anında görmesini sağlamak
+
+Öğretmenler için ise **ölçülebilir veri** sunmak (hangi konuda, hangi sınıfta,
+hangi zorlukta öğrenciler zorlanıyor?).
+
+---
+
+## ✨ Özellikler
+
+### 📚 Alıştırma Modu
+- Klasik (kutulu) ve Test (şıklı) modlar
+- Zaman sınırı, soru sayısı, zorluk seçimi
+- Soru bankası (900+ soru) + prosedürel üretim
+
+### 🎮 4 Farklı Oyun
+| Oyun | Tarz | Matematik Entegrasyonu |
+|------|------|------------------------|
+| 🏃 Euler'ün Macerası | Platform (Mario) | Yakalanınca kurtarma sorusu |
+| 🐍 Fibonacci'nin Yılanı | Klasik Yılan | Duvara çarpınca soru |
+| ⚡ Ramanujan'ın Yarışı | Süreli Hızlı İşlem | Combo çarpanı sistemi |
+| 🚀 Newton'un İntikamı | Uzay Shooter | Vurulunca kurtarma sorusu |
+
+### 🤖 AI Öğretmen (Yerel LLM)
+- Ollama üzerinden **tamamen yerel** çalışır (internet gerekmez)
+- Gerçek zamanlı sohbet
+- Oyun içi **ipucu** butonu
+- Soru değerlendirme **hakemi** (JSON çıktı)
+
+### 📊 Veri ve İstatistik
+- Her cevap SQLite'a kaydedilir
+- Öğretmen paneli: sınıf/zorluk/mod bazlı başarı
+- Grafik üretimi (matplotlib)
+
+---
+
+## 🚀 Kurulum
+
+### Gereksinimler
+- Python 3.10+
+- [Ollama](https://ollama.com/download) (AI özellikleri için)
+
+### Adımlar
+
+```bash
+# 1. Repoyu klonla
+git clone https://github.com/[kullanıcı_adın]/mathix.git
+cd mathix
+
+# 2. Sanal ortam oluştur
+python -m venv .venv
+.venv\Scripts\activate     # Windows
+# source .venv/bin/activate  # Linux/Mac
+
+# 3. Bağımlılıkları yükle
+pip install -r requirements.txt
+
+# 4. Ollama modelini indir
+ollama pull ogretmen:latest
+ollama serve
+
+# 5. Çalıştır
+python main.py
